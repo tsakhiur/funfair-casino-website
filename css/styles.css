@@ -1,0 +1,51 @@
+
+body { 
+    font-family: Arial; /* all font of the text is Arial*/
+    margin: 0; /* No outer space */
+    
+}
+
+/*MENU BAR*/
+.topbar {
+    background-color: blue;      /* color of menu bar */
+    text-align: center;          /* put in center */
+    padding: 10px 0;             /* space between up and down */
+}
+
+.topbar a {
+    color: white;           /* color of text */
+    font-size: 20px;           /* text size */
+    text-decoration: none;     /* no underline */
+    margin: 0 15px;        /* space between word in menu bar */
+    font-weight: normal;   /*make the text no bold*/
+}
+
+.topbar a:hover {
+    text-decoration: underline;  /* it shows underline when cursor hovers over the menu bar */
+}
+
+/* PAGE CONTENT ALIGNMENT */
+h2 {
+    text-align: center; /*Title locates in center*/
+margin-top: 40px;  /*add 40 pixels spaces from the top*/
+}
+
+form {
+  text-align: left; /*text starts from the left side*/
+}
+
+/* IMAGE */
+.hero {
+    width: 100%; /*make the image fill all page width*/
+    display: block; /*allows the image to be centered.*/
+}
+
+input {
+  width: 100%; /*width of the input*/
+  padding: 8px; /*space of the input. 8pixels looks nice for the page*/
+  margin-top: 5px; /*space above the box. 5pixels is enough between text and box*/
+  /*  */
+}
+
+
+
