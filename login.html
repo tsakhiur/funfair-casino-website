@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title> <!-- Title of the page-->
+<link rel="stylesheet" href="css/styles.css"> <!--calling css to the html-->
+</head>
+
+<body>
+<img class="hero" src="images/welcome.png" alt="Welcome">
+
+    <nav class="topbar"> <!--menu bar that links all the page-->
+
+<a href="index.html">Home</a> <!--the address where the link goes-->
+<a href="login.html">Log in</a>
+<a href="signup.html">Sign up</a>
+<a href="contact.html">Contact</a>
+<a href="promotion.html">Promotion</a>
+    
+    </nav>
+
+  <div style="text-align:center; margin-top:40px;"> <!--everything centers-->
+    <h2>Login</h2> <!--shows "login" bigger-->
+    
+
+<form onsubmit="return validateForm();" style="max-width:400px; margin:0 auto;">
+
+
+
+    <input type="text" placeholder="Email or Username"><br><br>  <!-- text box for typing email or username -->
+    <input type="password" placeholder="Password"><br><br> <!-- password input field -->
+
+<button type="submit" style="padding:8px 30px; background:blue; 
+color:white; border:0; border-radius:5px;">Log in</button> <!--login button and size, color..-->
+</form>
+
+
+<p style="margin-top:10px;">Don't have an account? <a href="signup.html">Sign up</a></p>
+<!--link to the sign up page-->
+
+<img src="images/bi.png" width="300" style="display:block; margin:40px auto; border-radius:10px;">
+<!--displayed picture and location, size-->
+</div>
+
+<script src="login.js"></script>
+
+
+</body>
+</html>
