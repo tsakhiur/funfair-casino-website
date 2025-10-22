@@ -22,3 +22,6 @@
 
 <form onsubmit="return validateForm();" 
 style="max-width:400px; margin:0 auto;">
+
+<label>First name</label><br>
+<input type="text" required onkeypress="return /[a-zA-Z]/i.test(event.key)"><br><br>
